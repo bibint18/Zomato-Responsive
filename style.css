@@ -1,0 +1,316 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.section-1{
+  background-image: url("/images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 420px;
+
+}
+.section-1 img{
+  object-fit: cover;
+}
+.navbar-nav li{
+  font-size: 1.1rem;
+}
+
+.section-1{
+  font-size: 0.875rem ;
+}
+.zomato-white{
+  width: 15rem;
+}
+.main-page-middle{
+  top: 100px;
+}
+.main-heading{
+  line-height: 2.688rem;
+}
+.location-svg{
+  width: 0.9rem;
+  height: 1.2rem;
+}
+.search-icon{
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.right-input{
+  max-width: 35rem;
+  flex: 1;
+}
+
+.first-input{
+  
+  outline: none;
+}
+.second-input{
+  padding-right: 0px;
+width: 600px;
+outline: none;
+}
+@media only screen and (max-width:552px){
+  .input-group{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-input{
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  .right-input{
+    
+    width: 100%;
+    padding-top: 2px;
+  }
+  .second-input{
+    width: 100%;
+    
+  }
+  
+}
+
+@media only screen and (max-width:880px){
+  .right-input{
+    display: flex;
+    flex: 1;
+  }
+  .second-input{
+    width: 100%;
+  }
+}
+
+.part-two img{
+  height: 250px;
+  width: 100%;
+}
+
+.card-img-top{
+  height: 150px;
+}
+.card-body{
+  white-space: nowrap;
+    overflow: hidden;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ;
+  z-index: 3;
+}
+@media only screen and(max-width: 900px) {
+  .card{
+    width: 300px;
+    height: 150px;
+  }
+  
+}
+.contain-box,.row{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+@media only screen and(max-width: 400px) {
+  .part-two img{
+    width:9.375rem;
+    height: 10rem;
+  }
+}
+.text-section{
+  display: inline-block;
+  color: white;
+  position: absolute;
+  top: 200px;
+  bottom: 3px;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  padding: 0px 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.first-opt-image{
+  width: 300px;
+  position: relative;
+}
+.whole{
+  background-image: url(images/one.avif);
+  background-size: cover;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.text-area{
+  top: 193px;
+  background-color: rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+}
+.flex-one{
+  border: 1px solid black;
+  width: 19.75rem;
+  
+  padding: 12px 12px 12px 12px;
+  border-radius: 15px;
+  border: 1px solid rgb(224 222 222);
+  cursor: pointer;
+  
+}
+.arrow{
+  top: 24px;
+  right: 10px;
+}
+.first-row{
+  gap: 10px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.place{
+  margin: 0;
+  font-size: 20px;
+  color: rgb(28, 28, 28);
+}
+.count{
+  margin: 0;
+  font-size: 16px;
+  color: rgb(54, 54, 54);
+}
+.flex-one:hover{
+  box-shadow: 2px 2px rgb(224 224 224);
+}
+@media only screen and(max-width:450px){
+  .phone{
+    display: none;
+  }
+  .third-section{
+    display: none;
+  }
+  
+}
+
+.part-four{
+  margin-bottom: 100px;
+}
+.phone-img{
+  height: 300px;
+}
+.part-five{
+  background-color: rgb(255, 251, 247);
+}
+.container-five{
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-top: 30px;
+  
+}
+.phone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 250px;
+}
+
+.working-five{
+  display: flex;
+  border-color: black;
+}
+.heading-five{
+  font-size: 44px;
+  color: rgb(28, 28, 28);
+  font-weight: 500;
+  line-height: 56px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.para-five{
+  color: rgb(54, 54, 54);
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+label{
+  font-size: 20px;
+}
+input[type='radio']{
+  color: red;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+.phone-cont{
+  background-color: rgb(255, 251, 247);;
+}
+#phone{
+  accent-color: red;
+}
+#e-mail{
+  accent-color: red;
+}
+.email-input{
+  padding: 12px 12px;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid
+  rgb(207, 207, 207);
+  outline: none;
+}
+
+.btn{
+  padding: 14px 14px;
+  background-color: rgb(239, 79, 95);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  font-size: 16px;
+  
+}
+.playstore{
+  display: flex;
+}
+.playstore img{
+  width: 137px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.download{
+  margin: 15px 10px 15px 0px;
+  color: rgb(156, 156, 156);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.email-input{
+  margin-right: 13px;
+}
+
+.accordian-class{
+  background-color:rgb(252, 252, 252);
+}
+.accordion-p{
+  font-size: 35px;
+}
+.india-img{
+  width: 28px;
+}
+.zomato-black{
+  height: 40px;
+
+}
+footer{
+  background-color: rgb(248, 248, 248);
+}
