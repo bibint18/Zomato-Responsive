@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-position: center ;
   height: 420px;
+  font-size: 0.875rem ;
 
 }
 .section-1 img{
@@ -18,9 +19,6 @@
   font-size: 1.1rem;
 }
 
-.section-1{
-  font-size: 0.875rem ;
-}
 .zomato-white{
   width: 15rem;
 }
